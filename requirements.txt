@@ -1,0 +1,23 @@
+# Core RAG pipeline (rag_pipeline.py) — matches the inference path used in the notebook
+langchain-huggingface
+langchain-chroma
+chromadb
+sentence-transformers
+torch
+google-genai
+python-dotenv
+
+# API layer (main.py)
+fastapi
+uvicorn[standard]
+pydantic
+
+# UI layer (streamlit_app.py)
+streamlit
+requests
+
+# NOTE: the following notebook dependencies are intentionally NOT included
+# here because they were only used for one-time corpus building / chunking /
+# evaluation, not for the inference pipeline this project ships:
+#   wikipedia, pandas, langchain-community, langchain-text-splitters
+# If you need to re-scrape or re-chunk the corpus, install those separately.
