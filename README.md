@@ -6,7 +6,7 @@ The system retrieves relevant information from a tourism knowledge base, reranks
 
 ### Live Demo
 
-[Try the deployed application](https://egypt-tourism-rag-azncxey9xzum6ydj4qytej.streamlit.app/)
+[Try the deployed application](https://egypt-tourism-rag-mfupvxjkvv5jfp87vhkdbn.streamlit.app/)
 
 ---
 
